@@ -7,7 +7,6 @@ import libsvm
 from cPickle import dump, HIGHEST_PROTOCOL
 import argparse
 
-
 EXTENSIONS = [".jpg", ".bmp", ".png", ".pgm", ".tif", ".tiff"]
 DATASETPATH = '../dataset'
 PRE_ALLOCATION_BUFFER = 1000  # for sift
